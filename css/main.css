@@ -72,7 +72,7 @@ a:active {
 }
 
 .main-menu li {
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
   line-height: 175%;
 }
