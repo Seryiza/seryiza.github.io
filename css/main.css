@@ -32,7 +32,7 @@ a:active {
   margin-left: 20px;
 }
 
-.infinity {
+.avatar {
   display: inline-block;
   width: 80px;
   height: 80px;
@@ -40,7 +40,7 @@ a:active {
   background: black;
 }
 
-.infinity__inner {
+.avatar__inner {
   display: inline-block;
   position: relative;
   width: 72px;
@@ -51,7 +51,7 @@ a:active {
   text-align: center;
 }
 
-.infinity__inner::before {
+.avatar__inner::before {
   content: "8";
   position: absolute;
   top: 50%;
@@ -90,28 +90,23 @@ a:active {
   margin-left: 10px;
 }
 
-/* Main block: content */
-.content {
+/* Main block: about-me */
+.about-me {
   margin-top: 30px;
 }
 
-.content h2 {
+.about-me h2 {
   margin-bottom: 10px;
   font-size: 1.75em;
 }
 
-.content p {
+.about-me p {
   font-size: 1.25em;
   text-indent: 1em;
   line-height: 150%;
 }
 
-.content li {
+.about-me li {
   font-size: 1.25em;
   line-height: 175%;
-}
-
-/* Footer */
-.footer {
-  margin-top: 60px;
 }
