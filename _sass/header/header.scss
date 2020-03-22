@@ -10,4 +10,13 @@
     margin: 0;
     font-size: 32px;
   }
+
+  &__avatar {
+    @include no-selectable;
+    @include no-draggable;
+
+    $size: 76px;
+    width: $size;
+    height: $size;
+  }
 }
