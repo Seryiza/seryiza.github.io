@@ -1,0 +1,23 @@
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 175%;
+}
+
+.main-menu li::after {
+  content: "-";
+  color: #4f80e1;
+}
+
+.main-menu li:last-of-type::after {
+  content: none;
+}
+
+.main-menu li::after {
+  margin-left: 10px;
+}

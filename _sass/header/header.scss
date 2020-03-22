@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  &__menu {
+    padding-left: 20px;
+  }
+
+  &__site-headline {
+    margin: 0;
+    font-size: 32px;
+  }
+}
