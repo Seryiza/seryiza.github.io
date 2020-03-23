@@ -9,7 +9,7 @@
     $default-size: 32px;
     width: $default-size;
     height: $default-size;
-    padding: 0 16px;
+    padding: 0 24px;
     fill: #444;
 
     @include hover-and-pressed-icon('github') {
