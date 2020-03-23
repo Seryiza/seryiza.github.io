@@ -5,19 +5,15 @@
 
 .main-menu li {
   display: inline-block;
-  margin-right: 10px;
   line-height: 175%;
-}
+  padding-right: 24px;
 
-.main-menu li::after {
-  content: "-";
-  color: #4f80e1;
-}
+  &:last-of-type {
+    padding-right: 0;
+  }
 
-.main-menu li:last-of-type::after {
-  content: none;
-}
-
-.main-menu li::after {
-  margin-left: 10px;
+  @media (max-width: $breakpoint-small) {
+    display: block;
+    line-height: 225%;
+  }
 }

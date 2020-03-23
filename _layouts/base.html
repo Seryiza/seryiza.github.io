@@ -23,25 +23,7 @@
 </head>
 <body>
   <div class="page-content">
-    <header class="header">
-      <div class="header__logo">
-        <img class="header__avatar" src="assets/images/avatar.svg" alt="My avatar is a rotated eight.">
-      </div>
-
-      <div class="header__menu">
-        <h1 class="header__site-headline">Seryiza</h1>
-        <nav class="main-menu">
-          <ul>
-            <li><a class="text-link" href="https://github.com/Seryiza">GitHub</a></li>
-            <li><a class="text-link" href="https://moikrug.ru/seryiza">Мой Круг</a></li>
-            <li><a class="text-link" href="https://seryiza.itch.io">Игры</a></li>
-            <li><a class="text-link" href="https://vk.com/seryiza">VK</a></li>
-            <li><a class="text-link" href="https://telegram.me/Seryiza">Telegram</a></li>
-            <li><a class="text-link" href="https://shikimori.one/Seryiza">Шикимори</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    {% include header.html %}
 
     <main class="common-content">
       {{ content }}

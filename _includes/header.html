@@ -1,0 +1,19 @@
+<header class="header">
+  <div class="header__logo">
+    <img class="header__avatar" src="assets/images/avatar.svg" alt="My avatar is a rotated eight.">
+  </div>
+
+  <div class="header__menu">
+    <h1 class="header__site-headline">Seryiza</h1>
+
+    {% if page.header_text_links %}
+      <nav class="main-menu">
+        <ul>
+          {% for header_text_link in page.header_text_links %}
+            <li><a class="text-link" href="{{ header_text_link.href }}">{{ header_text_link.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </div>
+</header>
