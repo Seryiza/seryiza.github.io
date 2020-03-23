@@ -1,0 +1,36 @@
+@mixin hover-and-pressed-icon($icon) {
+    &_#{$icon}:hover svg,
+    &_#{$icon}:focus svg {
+        @content;
+    }
+}
+
+.icon {
+    $default-size: 32px;
+    width: $default-size;
+    height: $default-size;
+    padding: 0 16px;
+    fill: #444;
+
+    @include hover-and-pressed-icon('github') {
+        fill: #181717;
+    }
+
+    @include hover-and-pressed-icon('telegram') {
+        fill: #2CA5E0;
+    }
+
+    @include hover-and-pressed-icon('skype') {
+        fill: #00AFF0;
+    }
+
+    @include hover-and-pressed-icon('vk') {
+        fill: #4680C2;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+}

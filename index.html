@@ -1,5 +1,18 @@
 ---
 title: "Seryiza: Web Developer"
+footer_icon_links:
+  - name: github
+    href: https://github.com/Seryiza
+    alt: My GitHub
+  - name: telegram
+    href: https://t.me/Seryiza
+    alt: My Telegram
+  - name: vk
+    href: https://vk.com/seryiza
+    alt: My profile on VK
+  - name: skype
+    href: https://join.skype.com/invite/qFsxVPDXItwz
+    alt: My Skype
 ---
 <!DOCTYPE html>
 <html lang="ru">
@@ -61,6 +74,18 @@ title: "Seryiza: Web Developer"
 
       <p>Сова. Интроверт. Увлекаюсь медитацией и просмотром аниме.</p>
     </main>
+
+    <footer>
+      <div class="icons">
+        {% for footer_icon in page.footer_icon_links %}
+          <a class="icon icon_{{ footer_icon.name }}" href="{{ footer_icon.href }}">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/contacts-icons.svg#{{ footer_icon.name }}"></use>
+            </svg>
+          </a>
+        {% endfor %}
+      </div>
+    </footer>
   </div>
 </body>
 </html>
