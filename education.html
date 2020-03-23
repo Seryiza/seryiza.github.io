@@ -1,0 +1,59 @@
+---
+title: "Seryiza: Образование"
+layout: base
+learning_resourses:
+  - title: Roadmaps
+    links:
+      - text: Teach Yourself CS
+        href: https://teachyourselfcs.com
+      - text: OSSU
+        href: https://github.com/ossu/computer-science
+      - text: Developer Roadmap
+        href: https://github.com/kamranahmedse/developer-roadmap
+      - text: Джедай интернет-маркетинга
+        href: https://www.it-agency.ru/academy/jedi-plan
+
+  - title: Checklists
+    links:
+      - text: Programmer Competency Matrix
+        href: http://sijinjoseph.com/programmer-competency-matrix
+      - text: Hexlet Matrix
+        href: https://docs.google.com/spreadsheets/d/e/2PACX-1vSr58Xg4DVX2WdmAkv3hE2ITJ3fPeNUmRFe0Ekro53U-ACFrhcUkV8PlUm4ddcn53Uh-5UIezZtZZgc/pubhtml#
+
+  - title: Booklists
+    links:
+      - text: Mustread от Kamyshev
+        href: https://read.kamyshev.me
+      - text: DevMap от zualex
+        href: https://github.com/zualex/devmap
+      - text: Hexlet Books
+        href: https://ru.hexlet.io/pages/recommended-books
+---
+
+<h2>Образование</h2>
+
+<p>
+  Стремление к самосовершенствованию — круто, а ещё круче иметь план для этого.
+</p>
+
+<p>
+  Тут я собираю списки и путевые карты от опытных людей, к которым можно обращаться
+  во время обучения.
+</p>
+
+<div class="cards">
+  {% for resource in page.learning_resourses %}
+    <div class="card">
+      <div class="card__title">{{ resource.title }}</div>
+      <div class="card__content">
+        <ul>
+          {% for link in resource.links %}
+            <li>
+              <a class="text-link" href="{{ link.href }}">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</div>

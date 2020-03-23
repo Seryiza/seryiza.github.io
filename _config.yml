@@ -6,12 +6,14 @@ defaults:
     values:
       title: "Seryiza: Web Developer"
       header_text_links:
-        - text: GitHub
-          href: https://github.com/Seryiza
+        - text: Главная
+          href: /
         - text: Мой Круг
           href: https://moikrug.ru/seryiza
         - text: Игры
           href: https://seryiza.itch.io
+        - text: Образование
+          href: /education
       footer_icon_links:
         - name: github
           href: https://github.com/Seryiza
