@@ -1,0 +1,7 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      title: "Seryiza: Web Developer"
