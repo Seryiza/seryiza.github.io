@@ -5,3 +5,12 @@ defaults:
       type: "pages"
     values:
       title: "Seryiza: Web Developer"
+      footer_icon_links:
+        - name: github
+          href: https://github.com/Seryiza
+        - name: telegram
+          href: https://t.me/Seryiza
+        - name: vk
+          href: https://vk.com/seryiza
+        - name: skype
+          href: https://join.skype.com/invite/qFsxVPDXItwz

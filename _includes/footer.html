@@ -1,0 +1,13 @@
+<footer>
+  {% if page.footer_icon_links %}
+    <div class="icons">
+      {% for footer_icon in page.footer_icon_links %}
+        <a class="icon icon_{{ footer_icon.name }}" href="{{ footer_icon.href }}">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <use href="assets/icons/contacts-icons.svg#{{ footer_icon.name }}"></use>
+          </svg>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</footer>
