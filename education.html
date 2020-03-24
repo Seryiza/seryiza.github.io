@@ -44,7 +44,7 @@ learning_resourses:
 <div class="cards">
   {% for resource in page.learning_resourses %}
     <div class="card">
-      <div class="card__title">{{ resource.title }}</div>
+      <div class="card__title card__title_indented">{{ resource.title }}</div>
       <div class="card__content">
         <ul>
           {% for link in resource.links %}

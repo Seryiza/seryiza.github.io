@@ -1,6 +1,10 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -10,6 +14,10 @@
     padding: 10px;
     color: #FFFFFF;
     background-color: #000000;
-    font-size: 32px;
+    font-size: 24px;
+
+    &_indented {
+      padding-left: 1.5em;
+    }
   }
 }
