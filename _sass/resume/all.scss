@@ -1,0 +1,102 @@
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 0;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+
+    &__header {
+        padding-bottom: 40px;
+    }
+
+    &__my-name {
+        font-size: 2em;
+    }
+
+    &__contacts-list {
+        margin: 0.75em 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__contacts-list li:not(:last-of-type) {
+        margin-bottom: 0.25em;
+    }
+
+    &__location {
+        font-style: italic;
+    }
+
+    &__columns {
+        display: flex;
+
+        @media screen and (max-width: 640px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__column {
+        flex: 0 1 50%;
+        padding: 0 10px;
+
+        @media screen and (max-width: 640px) {
+            flex: 0 1 100%;
+        }
+    }
+
+    &__block {
+        padding-bottom: 30px;
+        line-height: 1.35em;
+    }
+
+    &__block-header {
+        margin: 0;
+        margin-bottom: 0.5em;
+
+        padding: 0;
+        padding-bottom: 0.3em;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+        letter-spacing: 0.08em;
+    }
+
+    &__block-title {
+        font-weight: bold;
+    }
+
+    &__block-list {
+        margin: 0;
+        padding: 0 0 1em 1em;
+    }
+
+    &__block-list > li:not(:last-of-type) {
+        margin-bottom: 1em;
+    }
+
+    &__achievements {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    &__achievements-list {
+        font-size: 0.9em;
+    }
+
+    &__block-text_working-years {
+        font-style: italic;
+    }
+
+    &__skills-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__skills-list li {
+        display: inline;
+        padding-right: 0.3em;
+    }
+
+    &__skills-list li:not(:last-of-type)::after {
+        content: ',';
+    }
+}
