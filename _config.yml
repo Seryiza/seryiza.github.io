@@ -8,8 +8,8 @@ defaults:
       header_text_links:
         - text: Главная
           href: /
-        - text: Мой Круг
-          href: https://moikrug.ru/seryiza
+        - text: Резюме
+          href: /resume
         - text: Игры
           href: https://seryiza.itch.io
         - text: Образование
