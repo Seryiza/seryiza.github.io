@@ -12,8 +12,6 @@ defaults:
           href: /resume
         - text: Игры
           href: https://seryiza.itch.io
-        - text: Образование
-          href: /education
       footer_icon_links:
         - name: github
           href: https://github.com/Seryiza
