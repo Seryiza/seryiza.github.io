@@ -6,8 +6,6 @@ defaults:
     values:
       title: "Seryiza: Web Developer"
       header_text_links:
-        - text: Главная
-          href: /
         - text: Резюме
           href: /resume
         - text: Игры
