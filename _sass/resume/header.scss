@@ -1,0 +1,23 @@
+.header {
+    &__name {
+        font-size: 2em;
+    }
+
+    &__position {
+        font-size: 1.5em;
+    }
+
+    &__contacts {
+        margin: 0.75em 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__contacts li:not(:last-of-type) {
+        margin-bottom: 0.25em;
+    }
+
+    &__location {
+        font-style: italic;
+    }
+}

@@ -23,16 +23,16 @@
 </head>
 <body>
     <div class="resume">
-        <div class="resume__header">
-            <div class="resume__my-name">
+        <div class="header">
+            <div class="header__name">
                 Сергей Заборовский
             </div>
 
-            <div class="resume__my-position">
+            <div class="header__position">
                 Full Stack Web Developer
             </div>
 
-            <ul class="resume__contacts-list">
+            <ul class="header__contacts">
                 <li>
                     hello@seryiza.xyz
                 </li>
@@ -44,120 +44,139 @@
                 </li>
             </ul>
 
-            <div class="resume__location">
+            <div class="header__location">
                 Южно-Сахалинск, Россия
             </div>
         </div>
+
         <div class="resume__columns">
             <div class="resume__column">
-                <div class="resume__block">
-                    <h2 class="resume__block-header">Опыт</h2>
-                    <ul class="resume__block-list">
-                        <li>
-                            <span class="resume__block-title">
-                                Сах.ком
-                            </span>
+                <div class="block">
+                    <h2 class="block__header">Опыт</h2>
+                    <div class="block__content">
+                        <ul class="list">
+                            <li class="list__item">
+                                <div class="list__item-info list__item-info_title">
+                                    Сах.ком
+                                </div>
 
-                            <div class="resume__block-text">
-                                Разработка и доработка проектов: сайты, админ-панели, API. Написание тестов, CI/CD, Docker, внутренний фреймворк.
-                            </div>
+                                <div class="list__item-info">
+                                    Разработка и доработка проектов: сайты, админ-панели, API. Написание тестов, CI/CD, Docker, внутренний фреймворк.
+                                </div>
 
-                            <div class="resume__achievements">
-                                Достижения:
-                                <ul class="resume__achievements-list">
-                                    <li>Добавил WebView на основе Vue&nbsp;+&nbsp;Framework7 для мобильного приложения</li>
-                                    <li>Создал и поддерживал различные API для мобильного приложения</li>
-                                    <li>Добавил график просмотра количества объявлений с сохранением данных в БД</li>
-                                </ul>
-                            </div>
+                                <div class="list__item-info">
+                                    Достижения:
+                                    <ul class="achievements">
+                                        <li>Добавил WebView на основе Vue&nbsp;+&nbsp;Framework7 для мобильного приложения</li>
+                                        <li>Создал и поддерживал различные API для мобильного приложения</li>
+                                        <li>Добавил график просмотра количества объявлений с сохранением данных в БД</li>
+                                    </ul>
+                                </div>
 
-                            <div class="resume__block-text resume__block-text_working-years">
-                                2019 - сейчас
-                            </div>
-                        </li>
-                    </ul>
+                                <div class="list__item-info list__item-info_additional">
+                                    2019 - сейчас
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="resume__block">
-                    <h2 class="resume__block-header">
+                <div class="block">
+                    <h2 class="block__header">
                         Образование
                     </h2>
-                    <ul class="resume__block-list">
-                        <li>
-                            <span class="resume__block-title">
-                                Прикладная математика и информатика
-                            </span>
-                            <div class="resume__degree">
-                                Бакалавр, СахГУ
-                            </div>
-                            <div class="resume__block-text_working-years">
-                                2015 - 2019
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="block__content">
+                        <ul class="list">
+                            <li class="list__item">
+                                <span class="list__item-info list__item-info_title">
+                                    Прикладная математика и информатика
+                                </span>
+                                <div class="list__item-info list__item-info_no-margin">
+                                    Бакалавр, СахГУ
+                                </div>
+                                <div class="list__item-info list__item-info_additional list__item-info_no-margin">
+                                    2015 - 2019
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <div class="resume__column">
-                <div class="resume__block">
-                    <h2 class="resume__block-header">
+                <div class="block">
+                    <h2 class="block__header">
                         Навыки
                     </h2>
-                    <ul class="resume__block-list">
-                        <li>
-                            <span class="resume__block-title">
-                                Frontend
-                            </span>
-                            <ul class="resume__skills-list">
-                                <li>Modern JS</li>
-                                <li>React</li>
-                                <li>HTML + CSS</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="resume__block-title">
-                                Backend
-                            </span>
-                            <ul class="resume__skills-list">
-                                <li>PHP</li>
-                                <li>MariaDB</li>
-                                <li>Redis</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="resume__block-title">
-                                Разное
-                            </span>
-                            <ul class="resume__skills-list">
-                                <li>Linux</li>
-                                <li>Unit и E2E тесты</li>
-                                <li>Docker</li>
-                                <li>CI/CD</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="resume__block-title">
-                                Пробовал
-                            </span>
-                            <ul class="resume__skills-list">
-                                <li>Python</li>
-                                <li>Golang</li>
-                                <li>Ruby</li>
-                                <li>C#</li>
-                                <li>Io</li>
-                                <li>Prolog</li>
-                                <li>Erlang</li>
-                                <li>Clojure</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <div class="block__content">
+                        <ul class="list">
+                            <li class="list__item-info">
+                                <div class="list__item-info list__item-info_title">
+                                    Frontend
+                                </div>
+
+                                <div class="list__item-info">
+                                    <ul class="skills">
+                                        <li>Modern JS</li>
+                                        <li>React</li>
+                                        <li>HTML + CSS</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list__item-info">
+                                <div class="list__item-info list__item-info_title">
+                                    Backend
+                                </div>
+
+                                <div class="list__item-info">
+                                    <ul class="skills">
+                                        <li>PHP</li>
+                                        <li>MariaDB</li>
+                                        <li>Redis</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list__item-info">
+                                <div class="list__item-info list__item-info_title">
+                                    Разное
+                                </div>
+
+                                <div class="list__item-info">
+                                    <ul class="skills">
+                                        <li>Linux</li>
+                                        <li>Unit и E2E тесты</li>
+                                        <li>Docker</li>
+                                        <li>CI/CD</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list__item-info">
+                                <div class="list__item-info list__item-info_title">
+                                    Пробовал
+                                </div>
+
+                                <div class="list__item-info">
+                                    <ul class="skills">
+                                        <li>Python</li>
+                                        <li>Golang</li>
+                                        <li>Ruby</li>
+                                        <li>C#</li>
+                                        <li>Io</li>
+                                        <li>Prolog</li>
+                                        <li>Erlang</li>
+                                        <li>Clojure</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="resume__block">
-                    <h2 class="resume__block-header">
+                <div class="block">
+                    <h2 class="block__header">
                         О себе
                     </h2>
-                    <div class="resume__block-text">
+                    <div class="block__content">
                         Интроверт. Увлекаюсь медитацией и просмотром аниме. Веду блокноты по Bullet Journal. Живу с кошкой.
                     </div>
                 </div>
