@@ -5,6 +5,7 @@ defaults:
       type: "pages"
     values:
       title: "Seryiza: Web Developer"
+      description: "Сергей Заборовский: Web Fullstack Developer, создаю приложения, решаю проблемы"
       header_text_links:
         - text: Резюме
           href: /resume
