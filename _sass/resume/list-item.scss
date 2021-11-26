@@ -9,6 +9,16 @@
         font-weight: bold;
     }
 
+    &_link {
+        color: $link-color;
+        text-decoration: none;
+
+        &:hover,
+        &:active {
+            color: $link-hover-color;
+        }
+    }
+
     &_additional {
         font-style: italic;
     }

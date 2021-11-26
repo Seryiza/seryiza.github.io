@@ -11,12 +11,22 @@
         margin: 1em 0;
         padding: 0;
         list-style: none;
-        display: flex;
-        justify-content: space-evenly;
     }
 
     &__contacts li {
-        display: inline;
+        &:not(:last-of-type) {
+            margin-bottom: 0.75em;
+        }
+    }
+
+    &__link {
+        color: $link-color;
+        text-decoration: none;
+
+        &:hover,
+        &:active {
+            color: $link-hover-color;
+        }
     }
 
     &__location {
