@@ -5,27 +5,4 @@
     &__block-list > li:not(:last-of-type) {
         margin-bottom: 1em;
     }
-
-    &__item-info {
-        margin-bottom: 1em;
-
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-
-        &_title {
-            font-weight: bold;
-
-            // Убираем отступ для блока под заголовком для компактности.
-            margin-bottom: 0;
-        }
-
-        &_additional {
-            font-style: italic;
-        }
-
-        &_no-margin {
-            margin-bottom: 0;
-        }
-    }
 }

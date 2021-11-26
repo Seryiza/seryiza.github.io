@@ -1,0 +1,19 @@
+.list-item {
+    &:not(:last-of-type) {
+        margin-bottom: 1rem;
+    }
+
+    &_title {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    &_additional {
+        font-style: italic;
+    }
+
+    &_has-top-margin {
+        margin-top: 1em;
+    }
+}
