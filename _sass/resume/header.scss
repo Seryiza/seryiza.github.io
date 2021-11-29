@@ -1,4 +1,28 @@
 .header {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        flex-direction: column;
+    }
+
+    &__column {
+        flex: 1;
+        order: 20;
+    }
+
+    &__column_with-photo {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: $breakpoint-medium) {
+            order: 10;
+            margin-bottom: 20px;
+        }
+    }
+
     &__name {
         font-size: 2em;
 
@@ -39,5 +63,14 @@
 
     &__location {
         font-style: italic;
+    }
+
+    &__photo {
+        max-width: 175px;
+        border-radius: 50%;
+
+        @media screen and (max-width: $breakpoint-medium) {
+            width: 40%;
+        }
     }
 }

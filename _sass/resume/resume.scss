@@ -9,7 +9,7 @@
         padding-top: 20px;
         display: flex;
 
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: $breakpoint-medium) {
             flex-wrap: wrap;
         }
     }
@@ -18,7 +18,7 @@
         flex: 0 1 50%;
         padding: 0 10px;
 
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: $breakpoint-medium) {
             flex: 0 1 100%;
         }
     }
